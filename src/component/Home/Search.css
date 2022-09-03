@@ -1,0 +1,51 @@
+#search{
+    height: 450px;
+    width: 100%;
+    background-image: url('../images/background.png.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 5 px dotted red; */
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 48%;
+    top: 30%;
+}
+.logo>span{
+    position: absolute;
+    left: 19%;
+    top: 10%;
+    font-size: 70px;
+}
+.heading{
+    color: mintcream;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 33%;
+    top: 46%;
+}
+#dropdown{
+    width: 45%;
+    height: 60px;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    margin-top: 0%;
+    /* border: 2px solid white; */
+} 
+Select{
+    width: 47%;
+    height: 60px;
+    font-size: 22px;
+}
+#SelectRestaurant{
+    width: 52%;
+    height: 60px;
+    font-size: 22px;
+}
